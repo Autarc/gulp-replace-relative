@@ -16,20 +16,20 @@ $ npm install --save-dev gulp-replace-relative
 
 ## Usage
 
-```
+```js
 var replaceRelative = require('gulp-replace-relative')
 
 gulp.task('replace', function(){
 	return gulp.src('index.js')
-						 .pipe(replaceRelative(/pattern-(.*?)/g, function (file, match, callback) {
-							 console.log(file, match)
-						 })
+	            .pipe(replaceRelative(/pattern-(.*?)/g, function (file, match, callback) {
+		            console.log(file, match)
+		          })
 })
 ```
 
 ### Process file transformation ("like webpack loaders on the server")
 
-```
+```js
 gulp.task('replace', function(){
 	return gulp.src('index.js')
 				 .pipe(replaceRelative(/require\('\.\/(.*?\.styl')\/g, function (file, match, callback) {
