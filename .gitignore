@@ -1,0 +1,29 @@
+##########
+# Custom #
+##########
+
+# ~
+#.gitignore
+
+
+#################
+# Project files #
+#################
+
+# modules
+node_modules/
+
+# debug
+npm-debug.log
+
+
+######################
+# OS generated files #
+######################
+
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

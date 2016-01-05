@@ -1,0 +1,31 @@
+{
+  "name": "gulp-replace-relative",
+  "description": "A string replace plugin for gulp based on the processed file",
+  "version": "1.0.0",
+  "author": "Stefan Dühring | Autarc <autarc@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Autarc/gulp-replace-relative/issues"
+  },
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0"
+  },
+  "homepage": "https://github.com/Autarc/gulp-replace-relative",
+  "keywords": [
+    "async",
+    "gulpplugin",
+    "include",
+    "relative",
+    "replace"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Autarc/gulp-replace-relative.git"
+  },
+  "scripts": {
+    "check": "npm outdated -depth 0"
+  }
+}
